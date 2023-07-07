@@ -2,11 +2,11 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <section className="container mt-32 mx-auto ml-10 items-center ">
+    <section className="container mt-32 mx-auto  items-center ">
       <h4 className="ml-5">
         Here are a few technologies I’ve been working with recently :-
       </h4>
-      <div className="flex justify-around mt-10">
+      <div className="flex justify-around mt-10 mx-2">
         <div>
           <h3 className="text-xl bg-lime-500 "> frontend </h3>
           <ol className="leading-loose text-xl list-disc ">
