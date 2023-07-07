@@ -33,7 +33,7 @@ export const socialLinks = [
   {
     id: nanoid(),
     href: "https://github.com/rohzxz",
-    icon: <FaGithub />,
+    icon: <FaGithub className="" />,
   },
   {
     id: nanoid(),

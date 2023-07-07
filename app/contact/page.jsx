@@ -1,12 +1,12 @@
 import React from "react";
-import { HiOutlineChevronDoubleUp } from "react-icons/hi";
-import { socialLinks } from "../../components/Data";
+// import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
 const Contact = () => {
   return (
-    <div className="mt-32 mx-auto mb-60 p-10">
+    <div className="mt-32  mb-60 p-10 container mx-auto">
       <h1>Get In Touch</h1>
       <form
+        className="container mx-auto"
         action="https://getform.io/f/e48ad53b-33de-45b4-8059-5535eca699d4"
         method="POST"
         encType="multipart/form-data"
@@ -50,7 +50,7 @@ const Contact = () => {
           <label className="uppercase text-sm py-2">Message</label>
           <textarea
             className="border-2 rounded-lg p-3 border-gray-300"
-            rows="10"
+            rows="5"
             name="message"
           ></textarea>
         </div>
