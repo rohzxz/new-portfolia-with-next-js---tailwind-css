@@ -7,16 +7,16 @@ const NavBar = () => {
       <b className="text-2xl font-mono ">rohit ashva</b>
       <ul className="flex items-center gap-4 text-lg  ">
         <li>
-          <Link href="#Main">About</Link>
+          <Link href="/">About</Link>
         </li>
         <li>
-          <Link href="#Skills">Skills</Link>
+          <Link href="/skills">Skills</Link>
         </li>
         <li>
-          <Link href="#">Demo</Link>
+          <Link href="/">Demo</Link>
         </li>
         <li>
-          <Link href="#">Demo</Link>
+          <Link href="/">Demo</Link>
         </li>
       </ul>
     </div>
