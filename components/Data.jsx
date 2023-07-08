@@ -53,33 +53,28 @@ export const socialLinks = [
 
 //  nav links----------- nav links----------- nav links----------- nav links-----------
 
-// export const links = [
-//   {
-//     id: nanoid(),
-//     url: "/",
-//     text: "home",
-//   },
-//   {
-//     id: nanoid(),
-//     url: "/#about",
-//     text: "about",
-//   },
-//   {
-//     id: nanoid(),
-//     url: "/#skills",
-//     text: "skills",
-//   },
-//   {
-//     id: nanoid(),
-//     url: "/#projects",
-//     text: "projects",
-//   },
-//   {
-//     id: nanoid(),
-//     url: "/#contact",
-//     text: "contact",
-//   },
-// ];
+export const links = [
+  {
+    id: nanoid(),
+    url: "/main",
+    text: "about",
+  },
+  {
+    id: nanoid(),
+    url: "/skills",
+    text: "skills",
+  },
+  {
+    id: nanoid(),
+    url: "/projects",
+    text: "projects",
+  },
+  {
+    id: nanoid(),
+    url: "/contact",
+    text: "contact",
+  },
+];
 
 // // slider------slider-----slider-----slider-----slider-----
 

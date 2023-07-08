@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import { links } from "../components/Data";
 
 const NavBar = () => {
   return (
@@ -7,19 +8,18 @@ const NavBar = () => {
       <b className="text-2xl font-mono ">
         <Link href="/main">rohit ashva</Link>{" "}
       </b>
+
       <ul className="flex items-center gap-4 text-lg  ">
-        <li>
-          <Link href="/">About</Link>
-        </li>
-        <li>
-          <Link href="/skills">Skills</Link>
-        </li>
-        <li>
-          <Link href="/">Demo</Link>
-        </li>
-        <li>
-          <Link href="/contact">Contact</Link>
-        </li>
+        {links.map(({ id, url, text }) => {
+          return (
+            <>
+              {" "}
+              <li key={id}>
+                <Link href={url}>{text}</Link>
+              </li>
+            </>
+          );
+        })}
       </ul>
     </div>
   );
