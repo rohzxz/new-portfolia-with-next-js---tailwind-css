@@ -4,8 +4,8 @@ import { links } from "../components/Data";
 
 const NavBar = () => {
   return (
-    <div className="container  flex justify-around items-center p-4 border-4 border-black ml-auto mr-auto rounded-lg fixed top-0 left-0 right-0 z-10 bg-white ">
-      <b className="text-2xl font-mono ">
+    <div className="container  flex justify-around items-center p-1 border-4 border-black ml-auto mr-auto rounded-lg fixed top-0 left-0 right-0 z-10 bg-white ">
+      <b className="text-2xl font-mono lowercase">
         <Link href="/main">rohit ashva</Link>{" "}
       </b>
 

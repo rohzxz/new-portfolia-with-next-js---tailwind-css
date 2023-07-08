@@ -26,7 +26,7 @@ html {
 @layer base {
   body {
     @apply /* bg-[#ffffff] text-[#000000] */
-     tracking-wide;
+     tracking-wide capitalize;
   }
   h1,
   h2,
